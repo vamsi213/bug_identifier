@@ -23,7 +23,7 @@ if st.button("Generate") == True:
                 messages=[
             {"role": "system", "content": """You are a helpful AI Assistant.
                 
-                                            Given a Python code you need to check the code and find the errors in the code,explain them more clearly with examples and fix them."""},
+                                            Given a code you need to check the code and find the errors in the code,explain them more clearly with examples and fix them."""},
 
             {"role": "user", "content": prompt}
             ]
